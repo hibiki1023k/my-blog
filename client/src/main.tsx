@@ -2,13 +2,12 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
-import { createTheme, ThemeProvider } from "smarthr-ui"
-import "smarthr-ui/smarthr-ui.css"
+import { UIProvider } from '@yamada-ui/react'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <ThemeProvider theme={createTheme()}>
+    <UIProvider >
       <App />
-    </ThemeProvider>
+    </UIProvider>
   </React.StrictMode>,
 )

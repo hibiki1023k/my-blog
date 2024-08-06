@@ -1,10 +1,11 @@
-import './App.css'
-import { Button } from "smarthr-ui"
+// App.tsx
+import React from 'react'
+import AppRoutes from './routes'
 
-function App() {
+const App: React.FC = () => {
     return (
-        <div>
-            <Button variant="primary">Button</Button>
+        <div className='App'>
+            <AppRoutes />
         </div>
     )
 }
