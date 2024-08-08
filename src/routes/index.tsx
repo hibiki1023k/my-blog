@@ -2,13 +2,13 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import React, { Suspense, lazy } from 'react';
 import MainLayout from './../layout';
 
-const Home = lazy(() => import('./../Home'));
-const About = lazy(() => import('./../About'));
+const Home = lazy(() => import('./../components/Home'));
+const About = lazy(() => import('./../components/About'));
 
 const sampleData = {
-    name: "John Doe",
-    age: 25,
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    name: "Hibiki KAWAHASHI",
+    age: 20,
+    bio: "Student ad Kyushu Institute of Technology. I'm major in Computer Science.",
 };
 
 const AppRoutes: React.FC = () => {
