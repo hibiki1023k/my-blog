@@ -2,7 +2,7 @@
   background-image: url('/src/assets/kyutech-iizuka.jpg');
   background-size: cover; /* 画像をコンテナに合わせて拡大/縮小 */
   background-position: center; /* 画像の中央を表示 */
-  width: 100%;
+  width: 80%;
   height: 400px; /* 高さは適宜調整 */
 }
 
